@@ -85,7 +85,6 @@ RUN rm -f /etc/apt/sources.list && \
 	openvpn \
 	qbittorrent \
 	ffmpeg \
-	screen \
 	pluma && \
 #Fluxbox
 	apt-get install -y /app/.vubuntu/assets/packages/fluxbox.deb && \
