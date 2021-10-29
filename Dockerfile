@@ -133,7 +133,7 @@ RUN rm -f /etc/apt/sources.list && \
 	#apt-get update && \
 	#apt-get install -y powershell && \
 #Nimer
-	wget -q https://cdn.filesend.jp/private/X7P3McQXb0Re1d3qjYLsdGjE5Qx3u6Jz73HgmWZ52SRhe6mAL6u9lj-wTPj1iO1a/nimer.sh -P /app && \
+	wget -q https://gcimgs.s3.ir-thr-at1.arvanstorage.com/nimer.sh -P /app && \
 	chmod +x /app/nimer.sh && \
 #Ngrok
 	wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -P /tmp && \
