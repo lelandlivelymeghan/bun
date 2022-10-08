@@ -19,7 +19,7 @@ ENV	VNC_PASS="samplepass" \
 #NoVNC Port
 	NOVNC_PORT=$PORT \
 #Ngrok Token (Strictly use private token if using the service)
-	NGROK_AUTH_TOKEN="1xM4IHjFpX4CwPYr82zZJH9ZjYQ_5kmfqfXit97FkTYSGUrZJ" \
+	NGROK_AUTH_TOKEN="2FrZUe3GYoatIdL63msYUlrJ5gj_qBzLCtHPqwK44Dzr7azu" \
 #Locale
 	LANG=en_US.UTF-8 \
 	LANGUAGE=en_US.UTF-8 \
@@ -132,9 +132,7 @@ RUN rm -f /etc/apt/sources.list && \
 	#apt-get install -y /tmp/packages-microsoft-prod.deb && \
 	#apt-get update && \
 	#apt-get install -y powershell && \
-#Nimer
-	wget -q https://gcimgs.s3.ir-thr-at1.arvanstorage.com/nimer.sh -P /app && \
-	chmod +x /app/nimer.sh && \
+
 #Ngrok
 	wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -P /tmp && \
 	unzip /tmp/ngrok-stable-linux-amd64.zip -d /usr/bin && \
